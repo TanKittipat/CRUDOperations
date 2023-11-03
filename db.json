@@ -219,6 +219,17 @@
       "section": "66/45",
       "major": "Biology",
       "admissionYear": "2020"
+    },
+    {
+      "name": "Tinny",
+      "email": "Tinny@email.com",
+      "phone": "0000000000",
+      "birthday": "2023-11-03",
+      "photo": "https://source.unsplash.com/random/200x200/?portrait",
+      "section": "65/45",
+      "major": "Software Engineer",
+      "admissionYear": "2022",
+      "id": 21
     }
   ]
 }

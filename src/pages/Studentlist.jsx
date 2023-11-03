@@ -30,7 +30,7 @@ const Studentlist = () => {
     <div className="container">
       <div className="card">
         <div className="card-title">
-          <h2>Student List</h2>
+          <h2>Student Lists</h2>
         </div>
         <div className="card-body">
           <div className="divbtn">
@@ -38,7 +38,7 @@ const Studentlist = () => {
               Add New (+)
             </Link>
           </div>
-          <br />
+          {/* <br /> */}
           <table className="table table-bordered">
             <thead className="bg-dark text-white">
               <tr>
@@ -56,8 +56,8 @@ const Studentlist = () => {
                     <td>{item.id}</td>
                     <td>{item.name}</td>
                     <td>{item.major}</td>
-                    <td>{item.admissionYear}</td>
-                    <td>
+                    <td className="year">{item.admissionYear}</td>
+                    <td className="actions">
                       <a
                         className="btn btn-success"
                         onClick={() => {
@@ -65,7 +65,7 @@ const Studentlist = () => {
                         }}
                       >
                         Edit
-                      </a>  
+                      </a>
                       <a
                         className="btn btn-danger"
                         onClick={() => {
@@ -73,7 +73,7 @@ const Studentlist = () => {
                         }}
                       >
                         Delete
-                      </a>  
+                      </a>
                       <a
                         className="btn btn-primary"
                         onClick={() => {
