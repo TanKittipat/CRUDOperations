@@ -221,15 +221,26 @@
       "admissionYear": "2020"
     },
     {
-      "name": "Tinny",
-      "email": "Tinny@email.com",
-      "phone": "0000000000",
+      "name": "Barry Allen",
+      "email": "flash@mail.com",
+      "phone": "9999999999",
+      "birthday": "2023-11-03",
+      "photo": "https://source.unsplash.com/random/200x200/?portrait",
+      "section": "TheFlash888",
+      "major": "Running",
+      "admissionYear": "2022",
+      "id": 21
+    },
+    {
+      "name": "Punsan",
+      "email": "punsan888@mail.com",
+      "phone": "8888888888",
       "birthday": "2023-11-03",
       "photo": "https://source.unsplash.com/random/200x200/?portrait",
       "section": "65/45",
       "major": "Software Engineer",
       "admissionYear": "2022",
-      "id": 21
+      "id": 22
     }
   ]
 }
