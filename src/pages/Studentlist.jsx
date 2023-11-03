@@ -23,7 +23,18 @@ const Studentlist = () => {
     navigate("/student/detail/" + id);
   };
   const removeStudent = (id) => {
-    alert("delete" + id);
+    if (window.confirm("Do you want to remove ?")) {
+      fetch("http://localhost:8000/students/" + id, {
+        method: "DELETE",
+      })
+        .then((res) => {
+          alert("Remove successfully !!!");
+          window.location.reload();
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    }
   };
 
   return (
